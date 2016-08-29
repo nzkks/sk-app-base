@@ -17,7 +17,7 @@ var gulp                = require('gulp'),
 
 var jsSRC               = './src/js/*.js',
     jsDEST              = 'dist/assets/scripts/',
-    concatJsFile        = 'main.min.js',
+    concatJsFile        = 'app.min.js',
     vendorsJsSRC        = './src/js/vendors/**/*.js',
     concatVendorJsFile  = 'vendors.min.js',
     sassSRC             = './src/sass',
@@ -27,7 +27,7 @@ var jsSRC               = './src/js/*.js',
     htmlDEST            = 'dist/';
 
 gulp.task('cssifySass', function(){
-  return gulp.src(sassSRC +'/main.sass')
+  return gulp.src(sassSRC +'/app.sass')
       .pipe(sourceMaps.init())
       .pipe(sass.sync().on('error', sass.logError))
       .pipe(autoPrefixer({browsers: autoPrefixBrowsers}))
