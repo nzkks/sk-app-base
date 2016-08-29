@@ -1,5 +1,5 @@
 # sk-app-base
-[Author](http://www.drmsweb.com/)
+[Shanthosh Krishnakumar](http://www.drmsweb.com/)
 
 Use this base structure to start any website or web application
 
@@ -13,9 +13,8 @@ This has following Gulp workflows ready
 Install
 - Just download or clone the repository
 - In the copied folder run these commands from command line interface
-..* npm init
-..* npm install
-..* gulp
+  * npm install
+  * gulp
 - The last line will update the files in the dist folder. If you don't have the folder it creates and copy the files. Simultaneously a browser window will start to open the index.html file from the dist folder.
 
 
