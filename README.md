@@ -1,7 +1,7 @@
 # sk-app-base
 [Author](http://www.drmsweb.com/)
 
-Use this base structure to start any website or web application
+Use this base structure (sass & js gulp workflow) to start any website or web application
 
 This has following Gulp workflows ready
 - lint, concatinate and minify the custom js files
