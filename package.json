@@ -2,7 +2,7 @@
   "name": "sk-app-base",
   "version": "1.0.0",
   "description": "Base structure to start any website or web application",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
